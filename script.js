@@ -41,7 +41,7 @@ const gameHandler = (e)=>{
         console.log(totalTurn)
 
         if(totalTurn === 4){
-        result.innerHTML = "Game finished";
+        result.innerHTML = "You done it, game finished";
         lockedBoard = true; 
         return;
     }
